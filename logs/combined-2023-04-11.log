@@ -258,3 +258,93 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 08:08:07.050 AM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:11:40.324 AM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:11:40.329 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/resend_email_token',
+  status: 400,
+  content_length: '325',
+  response_time: 10.355,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:11:47.433 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/resend_email_token',
+  status: 400,
+  content_length: '325',
+  response_time: 2.66,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:11:48.405 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '1390',
+  response_time: 100.309,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:12:44.476 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '1390',
+  response_time: 77.897,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:12:54.999 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '149',
+  response_time: 102.609,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:13:24.370 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/resend_email_token',
+  status: 200,
+  content_length: '106',
+  response_time: 14.005,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:14:43.997 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/resend_email_token',
+  status: 200,
+  content_length: '106',
+  response_time: 12.595,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:14:52.164 AM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/24d1d3619686d77cab0d1e2db19b4f1b2ec28a901f961e63dc4e27b619c51f88/643516a41bba9d27de884818',
+  status: 302,
+  content_length: '68',
+  response_time: 14.156,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:14:58.012 AM'
+}
