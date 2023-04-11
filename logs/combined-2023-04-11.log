@@ -548,3 +548,13 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 07:10:34.743 PM'
 }
+{
+  method: 'DELETE',
+  url: '/api/v1/user/profile',
+  status: 404,
+  content_length: '1353',
+  response_time: 0.329,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:17:27.240 PM'
+}
