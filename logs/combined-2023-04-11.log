@@ -348,3 +348,23 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 08:14:58.012 AM'
 }
+{
+  method: 'POST',
+  url: '/api/v1/auth/reset_password_request',
+  status: 404,
+  content_length: '1367',
+  response_time: 0.293,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:21:38.199 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/reset_password_request',
+  status: 404,
+  content_length: '1367',
+  response_time: 0.272,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:21:39.776 AM'
+}
