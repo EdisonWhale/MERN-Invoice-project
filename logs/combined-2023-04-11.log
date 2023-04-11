@@ -1383,3 +1383,13 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 08:38:51.833 PM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:56:07.247 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:56:07.253 PM'
+}
