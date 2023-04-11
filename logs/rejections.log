@@ -876,3 +876,258 @@
   ],
   timestamp: '2023-04-11 07:03:14.111 AM'
 }
+{
+  error: ReferenceError: apiLimiter is not defined
+      at file:///app/backend/server.js:36:25
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: apiLimiter is not defined\n' +
+    'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:36:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:36:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 09:08:02 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 87470080,
+      heapTotal: 62930944,
+      heapUsed: 31762368,
+      external: 27207179,
+      arrayBuffers: 18371154
+    }
+  },
+  os: { loadavg: [ 0.31, 0.2, 0.11 ], uptime: 7780.8 },
+  trace: [
+    {
+      column: 25,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 09:08:02.081 AM'
+}
+{
+  error: ReferenceError: apiLimiter is not defined
+      at file:///app/backend/server.js:36:25
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: apiLimiter is not defined\n' +
+    'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:36:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:36:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 09:13:25 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 87232512,
+      heapTotal: 63193088,
+      heapUsed: 31550016,
+      external: 27211937,
+      arrayBuffers: 18387538
+    }
+  },
+  os: { loadavg: [ 0.24, 0.12, 0.09 ], uptime: 8104.02 },
+  trace: [
+    {
+      column: 25,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 09:13:25.305 AM'
+}
+{
+  error: ReferenceError: apiLimiter is not defined
+      at file:///app/backend/server.js:38:25
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: apiLimiter is not defined\n' +
+    'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:38:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:38:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 09:30:28 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 87658496,
+      heapTotal: 63455232,
+      heapUsed: 31569040,
+      external: 27211949,
+      arrayBuffers: 18387538
+    }
+  },
+  os: { loadavg: [ 0.54, 0.13, 0.07 ], uptime: 9126.8 },
+  trace: [
+    {
+      column: 25,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 38,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 09:30:28.084 AM'
+}
+{
+  error: ReferenceError: apiLimiter is not defined
+      at file:///app/backend/server.js:38:25
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: apiLimiter is not defined\n' +
+    'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:38:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:38:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 09:44:59 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 87973888,
+      heapTotal: 63455232,
+      heapUsed: 31697168,
+      external: 27211949,
+      arrayBuffers: 18371154
+    }
+  },
+  os: { loadavg: [ 0.9, 0.35, 0.15 ], uptime: 9998.43 },
+  trace: [
+    {
+      column: 25,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 38,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 09:44:59.710 AM'
+}
+{
+  error: ReferenceError: apiLimiter is not defined
+      at file:///app/backend/server.js:43:25
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: apiLimiter is not defined\n' +
+    'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:43:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: apiLimiter is not defined\n' +
+    '    at file:///app/backend/server.js:43:25\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 09:49:49 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 87072768,
+      heapTotal: 62668800,
+      heapUsed: 32341856,
+      external: 27212585,
+      arrayBuffers: 18313919
+    }
+  },
+  os: { loadavg: [ 0.69, 0.31, 0.17 ], uptime: 10288.51 },
+  trace: [
+    {
+      column: 25,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 09:49:49.798 AM'
+}
