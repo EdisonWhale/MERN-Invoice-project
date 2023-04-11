@@ -148,3 +148,53 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 07:48:14.529 AM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 07:48:35.322 AM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 07:48:35.328 AM'
+}
+{
+  message: 'incorrect email or password',
+  level: 'error',
+  timestamp: '2023-04-11 07:48:37.598 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 401,
+  content_length: '188',
+  response_time: 98.901,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:48:37.602 AM'
+}
+{
+  message: 'incorrect email or password',
+  level: 'error',
+  timestamp: '2023-04-11 07:48:39.097 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 401,
+  content_length: '188',
+  response_time: 73.814,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:48:39.098 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '307',
+  response_time: 160.084,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:48:45.491 AM'
+}
