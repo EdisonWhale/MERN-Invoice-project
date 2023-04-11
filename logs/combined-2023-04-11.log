@@ -408,3 +408,78 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 08:24:28.284 AM'
 }
+{
+  method: 'POST',
+  url: '/api/v1/auth/logout',
+  status: 404,
+  content_length: '1335',
+  response_time: 3.165,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:54:24.079 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/logout',
+  status: 404,
+  content_length: '1335',
+  response_time: 0.405,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:54:26.127 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/user/profile',
+  status: 404,
+  content_length: '1354',
+  response_time: 0.258,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 09:00:12.903 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 09:08:02.076 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 09:13:25.300 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 09:30:28.080 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 09:44:59.705 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 09:49:49.794 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 06:29:28.978 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 06:29:28.984 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/test',
+  status: 404,
+  content_length: '1331',
+  response_time: 1.624,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 06:29:47.109 PM'
+}
