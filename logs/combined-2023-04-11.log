@@ -208,3 +208,33 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 07:54:49.265 AM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 07:58:27.048 AM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 07:58:27.053 AM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/new_access_token',
+  status: 200,
+  content_length: '307',
+  response_time: 24.969,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:58:55.866 AM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/new_access_token',
+  status: 200,
+  content_length: '307',
+  response_time: 6.978,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:58:57.966 AM'
+}
