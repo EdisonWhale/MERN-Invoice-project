@@ -628,3 +628,308 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 07:19:19.426 PM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 07:39:28.387 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 07:39:28.393 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/user/profile',
+  status: 404,
+  content_length: '1353',
+  response_time: 1.963,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:39:51.001 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/user/profile',
+  status: 404,
+  content_length: '1353',
+  response_time: 0.58,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:39:52.464 PM'
+}
+{
+  message: 'incorrect email or password',
+  level: 'error',
+  timestamp: '2023-04-11 07:40:31.054 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 401,
+  content_length: '263',
+  response_time: 7.119,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:40:31.055 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '307',
+  response_time: 180.101,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:40:45.101 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/user/all',
+  status: 404,
+  content_length: '1345',
+  response_time: 0.361,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:41:09.652 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/user/all',
+  status: 404,
+  content_length: '1345',
+  response_time: 0.315,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:41:18.517 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/user/all',
+  status: 404,
+  content_length: '1345',
+  response_time: 0.335,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:42:01.074 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/all',
+  status: 404,
+  content_length: '1345',
+  response_time: 0.35,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:42:24.473 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/all',
+  status: 404,
+  content_length: '1345',
+  response_time: 0.421,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:42:25.534 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/all',
+  status: 404,
+  content_length: '1345',
+  response_time: 0.394,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:42:26.301 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/profile',
+  status: 200,
+  content_length: '63',
+  response_time: 5.688,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:42:35.221 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/profile',
+  status: 200,
+  content_length: '611',
+  response_time: 2.402,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:43:39.456 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/register',
+  status: 404,
+  content_length: '1346',
+  response_time: 0.275,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:43:57.684 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/register',
+  status: 404,
+  content_length: '1339',
+  response_time: 0.421,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:44:29.351 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '150',
+  response_time: 107.083,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:44:48.277 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 400,
+  content_length: '362',
+  response_time: 1.837,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:44:52.016 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '1390',
+  response_time: 77.836,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:45:00.911 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '152',
+  response_time: 86.254,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:45:09.270 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '601',
+  response_time: 3.423,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:45:22.851 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '152',
+  response_time: 86.201,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:45:32.240 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '152',
+  response_time: 82.577,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:45:46.088 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '152',
+  response_time: 84.799,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:45:53.294 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 400,
+  content_length: '322',
+  response_time: 73.135,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:46:34.153 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/ee2f20d3bfdb36016e11fb9364392d6f8eaa45b56d487a05c53acfdd2424ca6c/6435b8b076b343ea2935ff64',
+  status: 302,
+  content_length: '68',
+  response_time: 13.488,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:46:41.800 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/215a989a57fe73ac67f88dbeac97f307de368c81db66cd71af53e3761db04720/6435b8c576b343ea2935ff6d',
+  status: 302,
+  content_length: '68',
+  response_time: 11.676,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:46:45.177 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/31ff928fc8ff1bc7ed0479412ac05b54d1f3cff7539dadc8fc9822cf3e722d41/6435b8dc76b343ea2935ff74',
+  status: 302,
+  content_length: '68',
+  response_time: 11.878,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:46:54.112 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/379d2af68bca816f0eec9a3a00531c9c6c9f107e5e0acbe44ef79233bf213b98/6435b8ea76b343ea2935ff79',
+  status: 302,
+  content_length: '68',
+  response_time: 11.75,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:46:59.681 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/cd50ab5afe31de9c193aea5437a7e9ea78f4174f130564ff46a2ad9716b4afa3/6435b8f176b343ea2935ff7e',
+  status: 302,
+  content_length: '68',
+  response_time: 11.801,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:47:03.005 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '309',
+  response_time: 147.08,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:47:09.846 PM'
+}
