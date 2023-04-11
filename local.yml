@@ -56,6 +56,9 @@ services:
             ME_CONFIG_MONGODB_SERVER: mongodb
             ME_CONFIG_BASICAUTH_USERNAME: admin
             ME_CONFIG_BASICAUTH_PASSWORD: admin123456
+            ME_CONFIG_OPTIONS_EDITORTHEME: default
+            ME_CONFIG_OPTIONS_READONLY: 'false'
+            ME_CONFIG_MONGODB_ENABLE_ADMIN: 'true'
         networks:
             - invoice
 
