@@ -483,3 +483,68 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 06:29:47.109 PM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 06:57:54.792 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 06:57:54.798 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/profile',
+  status: 403,
+  content_length: '9',
+  response_time: 2.609,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:00:45.545 PM'
+}
+{
+  message: 'incorrect email or password',
+  level: 'error',
+  timestamp: '2023-04-11 07:01:41.396 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 401,
+  content_length: '263',
+  response_time: 7.036,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:01:41.398 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '299',
+  response_time: 179.308,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:01:58.334 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/profile',
+  status: 404,
+  content_length: '1353',
+  response_time: 0.511,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:03:36.858 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/profile',
+  status: 200,
+  content_length: '287',
+  response_time: 4.557,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:10:34.743 PM'
+}
