@@ -933,3 +933,453 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 07:47:09.846 PM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 07:59:50.762 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 07:59:50.769 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '320',
+  response_time: 187.012,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:01:05.422 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 200,
+  content_length: '274',
+  response_time: 4.958,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:01:41.068 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 200,
+  content_length: '274',
+  response_time: 3.813,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:02:33.136 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/%206435b8b076b343ea2935ff64',
+  status: 200,
+  content_length: '1105',
+  response_time: 2.993,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:02:50.395 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 200,
+  content_length: '274',
+  response_time: 3.978,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:02:58.291 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:03:05.872 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:03:05.878 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:12:22.829 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:12:22.835 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:12:27.014 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:12:27.020 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 403,
+  content_length: '9',
+  response_time: 3.495,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:12:32.676 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '320',
+  response_time: 185.244,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:12:59.717 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8dc76b343ea2935ff74',
+  status: 200,
+  content_length: '274',
+  response_time: 4.912,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:13:44.892 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:15:07.611 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:15:07.618 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8dc76b343ea2935ff74',
+  status: 200,
+  content_length: '274',
+  response_time: 13.952,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:15:10.544 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8dc76b343ea2935ff74',
+  status: 200,
+  content_length: '274',
+  response_time: 4.248,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:15:11.950 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '320',
+  response_time: 176.025,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:15:32.289 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8dc76b343ea2935ff74',
+  status: 200,
+  content_length: '274',
+  response_time: 3.609,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:16:08.424 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/all',
+  status: 200,
+  content_length: '1634',
+  response_time: 8.016,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:19:54.354 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 200,
+  content_length: '274',
+  response_time: 3.649,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:20:32.352 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '306',
+  response_time: 154.27,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:23:02.436 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/all',
+  status: 401,
+  content_length: '524',
+  response_time: 2.058,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:23:21.635 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8c576b343ea2935ff6d',
+  status: 401,
+  content_length: '524',
+  response_time: 2.226,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:23:59.991 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8c576b343ea2935ff6d',
+  status: 401,
+  content_length: '524',
+  response_time: 2.298,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:24:01.108 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8c576b343ea2935ff6d',
+  status: 401,
+  content_length: '524',
+  response_time: 1.996,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:24:01.702 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8c576b343ea2935ff6d',
+  status: 401,
+  content_length: '524',
+  response_time: 2.426,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:24:02.408 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/6435b8c576b343ea2935ff6d',
+  status: 404,
+  content_length: '1387',
+  response_time: 0.388,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:25:05.854 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '324',
+  response_time: 149.78,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:25:19.983 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/delete/6435b8ea76b343ea2935ff79',
+  status: 404,
+  content_length: '1392',
+  response_time: 0.223,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:25:52.626 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/delete/6435b8ea76b343ea2935ff79',
+  status: 404,
+  content_length: '1392',
+  response_time: 0.207,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:25:56.450 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/delete/6435b8ea76b343ea2935ff79',
+  status: 404,
+  content_length: '1392',
+  response_time: 0.195,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:25:57.896 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8ea76b343ea2935ff79',
+  status: 200,
+  content_length: '274',
+  response_time: 3.471,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:26:02.469 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/all',
+  status: 200,
+  content_length: '1642',
+  response_time: 3.925,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:26:36.872 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:27:51.344 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:27:51.350 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/user/all',
+  status: 200,
+  content_length: '1642',
+  response_time: 16.314,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:27:55.277 PM'
+}
+{
+  method: 'DELETE',
+  url: '/api/v1/user/6435b8dc76b343ea2935ff74',
+  status: 200,
+  content_length: '62',
+  response_time: 6.417,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:28:13.745 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:33:28.328 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:33:28.338 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:33:33.706 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:33:33.712 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:34:55.470 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:34:55.476 PM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/logout',
+  status: 200,
+  content_length: '74',
+  response_time: 22.334,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:36:00.845 PM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 200,
+  content_length: '324',
+  response_time: 170.309,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:37:26.442 PM'
+}
+{
+  method: 'PATCH',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 404,
+  content_length: '1387',
+  response_time: 0.787,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:38:33.481 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:38:43.005 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:38:43.011 PM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 08:38:44.480 PM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 08:38:44.486 PM'
+}
+{
+  method: 'PATCH',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 404,
+  content_length: '1387',
+  response_time: 2.241,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:38:50.337 PM'
+}
+{
+  method: 'PATCH',
+  url: '/api/v1/user/6435b8b076b343ea2935ff64',
+  status: 404,
+  content_length: '1387',
+  response_time: 0.737,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 08:38:51.833 PM'
+}
