@@ -1,0 +1,10 @@
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 12:35:06.428 AM'
+}
+{
+  message: 'Server running in development mode on port 5000',
+  level: 'info',
+  timestamp: '2023-04-11 12:35:06.434 AM'
+}
