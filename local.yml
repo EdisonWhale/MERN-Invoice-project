@@ -11,14 +11,15 @@ services:
             - .:/app
         depends_on:
             - mongodb
-        # ports:
-        #     - "1997:1997"
+        ports:
+            - "1997:1997"
         environment:
             NODE_ENV: ${NODE_ENV}
             MONGO_URI: mongodb://${MONGO_ROOT_USERNAME}:${MONGO_ROOT_PASSWORD}@mongodb
             FORCE_COLOR: 1
         networks:
             - invoice
+
 
     client:
         build:

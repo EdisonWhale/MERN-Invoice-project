@@ -198,3 +198,13 @@
   message: 'incoming-request',
   timestamp: '2023-04-11 07:48:45.491 AM'
 }
+{
+  method: 'GET',
+  url: '/api/v1/auth/new_access_token',
+  status: 404,
+  content_length: '1355',
+  response_time: 0.516,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:54:49.265 AM'
+}
