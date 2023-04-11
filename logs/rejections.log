@@ -414,3 +414,465 @@
   ],
   timestamp: '2023-04-10 05:17:16.255 PM'
 }
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 03:55:57 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 84062208,
+      heapTotal: 42196992,
+      heapUsed: 30341344,
+      external: 25026431,
+      arrayBuffers: 18566941
+    }
+  },
+  os: { loadavg: [ 0.78, 0.19, 0.06 ], uptime: 26790.66 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 03:55:57.019 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:43:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:43:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:43:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 04:03:07 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 85049344,
+      heapTotal: 41934848,
+      heapUsed: 30568760,
+      external: 26454926,
+      arrayBuffers: 19435837
+    }
+  },
+  os: { loadavg: [ 1.17, 0.34, 0.14 ], uptime: 27221.2 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 43,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 04:03:07.556 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 04:46:24 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 84877312,
+      heapTotal: 41934848,
+      heapUsed: 30353712,
+      external: 26458766,
+      arrayBuffers: 19427645
+    }
+  },
+  os: { loadavg: [ 1.12, 0.28, 0.1 ], uptime: 29817.85 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 04:46:24.211 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 05:03:38 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 85340160,
+      heapTotal: 42196992,
+      heapUsed: 30110752,
+      external: 25026431,
+      arrayBuffers: 18558749
+    }
+  },
+  os: { loadavg: [ 0.62, 0.13, 0.06 ], uptime: 30851.81 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 05:03:38.171 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 05:06:55 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 84459520,
+      heapTotal: 42196992,
+      heapUsed: 30483392,
+      external: 25066568,
+      arrayBuffers: 18566941
+    }
+  },
+  os: { loadavg: [ 0.75, 0.24, 0.11 ], uptime: 31049.39 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 05:06:55.745 AM'
+}
+{
+  error: ReferenceError: registerUser is not defined
+      at file:///C:/Users/EdisonWhale/Desktop/projects/full-stack/MERN-Invoice-project/backend/routes/authRoutes.js:7:26
+      at ModuleJob.run (node:internal/modules/esm/module_job:194:25),
+  level: 'error',
+  message: 'uncaughtException: registerUser is not defined\n' +
+    'ReferenceError: registerUser is not defined\n' +
+    '    at file:///C:/Users/EdisonWhale/Desktop/projects/full-stack/MERN-Invoice-project/backend/routes/authRoutes.js:7:26\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)',
+  stack: 'ReferenceError: registerUser is not defined\n' +
+    '    at file:///C:/Users/EdisonWhale/Desktop/projects/full-stack/MERN-Invoice-project/backend/routes/authRoutes.js:7:26\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)',
+  exception: true,
+  date: 'Tue Apr 11 2023 01:56:36 GMT-0400 (北美东部夏令时间)',
+  process: {
+    pid: 1292,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\EdisonWhale\\Desktop\\projects\\full-stack\\MERN-Invoice-project',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\EdisonWhale\\Desktop\\projects\\full-stack\\MERN-Invoice-project\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 82345984,
+      heapTotal: 62402560,
+      heapUsed: 33049232,
+      external: 19871430,
+      arrayBuffers: 18576026
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 35285.765 },
+  trace: [
+    {
+      column: 26,
+      file: 'file:///C:/Users/EdisonWhale/Desktop/projects/full-stack/MERN-Invoice-project/backend/routes/authRoutes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 194,
+      method: 'run',
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 01:56:36.980 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 06:41:28 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 84000768,
+      heapTotal: 42196992,
+      heapUsed: 30265984,
+      external: 25059373,
+      arrayBuffers: 18566941
+    }
+  },
+  os: { loadavg: [ 1.17, 0.29, 0.1 ], uptime: 36722.43 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 06:41:28.784 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 06:58:41 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 82817024,
+      heapTotal: 42196992,
+      heapUsed: 30248360,
+      external: 25085398,
+      arrayBuffers: 18566941
+    }
+  },
+  os: { loadavg: [ 0.3, 0.07, 0.02 ], uptime: 20.05 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 06:58:41.331 AM'
+}
+{
+  error: ReferenceError: add is not defined
+      at file:///app/backend/server.js:37:1
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: add is not defined\n' +
+    'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: add is not defined\n' +
+    '    at file:///app/backend/server.js:37:1\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 11 2023 07:03:14 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 83132416,
+      heapTotal: 42196992,
+      heapUsed: 30112368,
+      external: 25008243,
+      arrayBuffers: 18566941
+    }
+  },
+  os: { loadavg: [ 0.84, 0.23, 0.07 ], uptime: 292.83 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-11 07:03:14.111 AM'
+}

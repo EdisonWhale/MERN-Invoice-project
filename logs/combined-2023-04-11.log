@@ -8,3 +8,143 @@
   level: 'info',
   timestamp: '2023-04-11 12:35:06.434 AM'
 }
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 03:55:57.012 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 04:03:07.551 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 04:46:24.206 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 05:03:38.166 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 05:06:55.740 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 06:41:28.779 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 06:58:41.323 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 07:03:14.106 AM'
+}
+{
+  message: 'MongoDB Connected: mongodb',
+  level: 'info',
+  timestamp: '2023-04-11 07:30:39.098 AM'
+}
+{
+  message: 'Server running in development mode on port 1997',
+  level: 'info',
+  timestamp: '2023-04-11 07:30:39.106 AM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/test',
+  status: 200,
+  content_length: '35',
+  response_time: 1.82,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:30:42.999 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/test',
+  status: 404,
+  content_length: '1338',
+  response_time: 0.461,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:37:26.321 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 400,
+  content_length: '1351',
+  response_time: 0.892,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:38:59.792 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 400,
+  content_length: '1339',
+  response_time: 0.419,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:39:10.465 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/register',
+  status: 200,
+  content_length: '150',
+  response_time: 133.183,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:39:38.557 AM'
+}
+{
+  method: 'GET',
+  url: '/api/v1/auth/verify/9db14cd216386536d7bb5070a55dfb3b46d5ef03c6a74d46b4808770fc395863/64350eba38c7dcb50ed4207b',
+  status: 302,
+  content_length: '68',
+  response_time: 18.3,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:40:41.343 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 404,
+  content_length: '1333',
+  response_time: 0.27,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:48:03.611 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 404,
+  content_length: '1333',
+  response_time: 0.311,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:48:13.682 AM'
+}
+{
+  method: 'POST',
+  url: '/api/v1/auth/login',
+  status: 404,
+  content_length: '1333',
+  response_time: 0.225,
+  level: 'http',
+  message: 'incoming-request',
+  timestamp: '2023-04-11 07:48:14.529 AM'
+}

@@ -11,9 +11,14 @@
             "hash": "a3562620072018f532a1489df51c4afd463a5171357c6e54e83cdd8a666355a5"
         },
         {
-            "date": 1681173306368,
+            "date": 1681192449670,
+            "name": "logs\\combined-2023-04-11.log",
+            "hash": "c7f7ce7db5fa3f2fc9cd998d6a19088b1db94a6b3621ba38ece46b05a372666a"
+        },
+        {
+            "date": 1681199315140,
             "name": "logs/combined-2023-04-11.log",
-            "hash": "e554eee5d1519407d63d5c9968e0c8294eeedf72525c11dc36a686fc2a3d66b9"
+            "hash": "06bd4ecbc38cfaf12dd2b5ec9fac90a9a380e7b1b3c3cda7d7d373d0ef0bf4c1"
         }
     ],
     "hashType": "sha256"

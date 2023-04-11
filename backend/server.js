@@ -7,14 +7,14 @@ import connectionToDB from "./config/connectDB.js";
 import { morganMiddleware, systemLogs } from "./utils/Logger.js";
 import mongoSanitize from "express-mongo-sanitize";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
-
+import authRoutes from "./routes/authRoutes.js"
 
 await connectionToDB();
 
 const app = express();
 
 // serve frontend
-if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "development") {
 	app.use(morgan("dev"))
 }
 
@@ -30,12 +30,15 @@ app.use(morganMiddleware);
 
 app.get("/api/v1/test", (req,res) =>{
     res.json({HI:"welcome to the invoice app"})
-})
+});
 
-add.use(notFound);
+app.use("/api/v1/auth", authRoutes);
+
+app.use(notFound);
+
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 1997;
 
 app.listen(PORT, () => {
 	console.log(
