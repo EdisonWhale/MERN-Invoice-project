@@ -36,6 +36,7 @@ import {
 	useDeactivateUserMutation,
 } from "../usersApiSlice";
 
+//for user control
 const UserListPage = () => {
 	useTitle("All Users - MERN Invoice");
 
