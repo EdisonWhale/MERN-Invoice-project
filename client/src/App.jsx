@@ -17,11 +17,12 @@ import LoginPage from "./features/auth/pages/LoginPage";
 import ResendEmailTokenPage from "./features/auth/pages/ResendEmailTokenPage";
 import PasswordResetPage from "./features/auth/pages/PasswordResetPage";
 import PasswordResetRequestPage from "./features/auth/pages/PasswordResetRequestPage";
-
 import { ROLES } from "./config/role";
 import UsersList from "./features/users/pages/UsersListPage"
 import DashboardPage from "./pages/DashboardPage";
 import AuthRequired from "./components/AuthRequired";
+import EditProfileForm from "./features/users/pages/EditProfileForm";
+import ProfilePage from "./features/users/pages/ProfilePage";
 
 const App = () => {
   useTitle("MERN Invoice - Home");
@@ -45,14 +46,16 @@ const App = () => {
 						path="auth/reset_password"
 						element={<PasswordResetPage />}
 					/>
-
-          {/* Private Routes - Users */}
+					{/* Private Routes - Users */}
 					<Route
 						element={<AuthRequired allowedRoles={[ROLES.User]} />}
 					>
-            <Route path="dashboard" element={<DashboardPage/>}/>
-          </Route>
-
+						<Route path="profile" element={<ProfilePage />} />
+						<Route
+							path="edit-profile"
+							element={<EditProfileForm />}
+						/>
+							</Route>
 					{/* Private Routes - Admin Users only */}
 					<Route
 						element={<AuthRequired allowedRoles={[ROLES.Admin]} />}
