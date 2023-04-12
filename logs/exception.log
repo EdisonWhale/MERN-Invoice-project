@@ -1235,3 +1235,105 @@
   ],
   timestamp: '2023-04-11 09:49:49.798 AM'
 }
+{
+  error: TypeError: Cannot read properties of undefined (reading 'app')
+      at file:///app/backend/server.js:30:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'app')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'app')\n" +
+    '    at file:///app/backend/server.js:30:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'app')\n" +
+    '    at file:///app/backend/server.js:30:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 06:54:22 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 86777856,
+      heapTotal: 62930944,
+      heapUsed: 32868736,
+      external: 24706043,
+      arrayBuffers: 18406695
+    }
+  },
+  os: { loadavg: [ 2.44, 1.44, 0.97 ], uptime: 58406.42 },
+  trace: [
+    {
+      column: 13,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 06:54:22.103 AM'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'app')
+      at file:///app/backend/server.js:30:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'app')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'app')\n" +
+    '    at file:///app/backend/server.js:30:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'app')\n" +
+    '    at file:///app/backend/server.js:30:13\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 06:55:50 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 41,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 86781952,
+      heapTotal: 62930944,
+      heapUsed: 32966168,
+      external: 24707161,
+      arrayBuffers: 18394370
+    }
+  },
+  os: { loadavg: [ 2.39, 1.88, 1.18 ], uptime: 58494.33 },
+  trace: [
+    {
+      column: 13,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 06:55:50.016 AM'
+}
