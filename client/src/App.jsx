@@ -14,8 +14,9 @@ import { useSelector } from "react-redux";
 import VerifiedPage from "./features/auth/pages/VerifiedPage";
 import RegisterPage from "./features/auth/pages/RegisterPage";
 import LoginPage from "./features/auth/pages/LoginPage";
-
-
+import ResendEmailTokenPage from "./features/auth/pages/ResendEmailTokenPage";
+import PasswordResetPage from "./features/auth/pages/PasswordResetPage";
+import PasswordResetRequestPage from "./features/auth/pages/PasswordResetRequestPage";
 const App = () => {
   useTitle("MERN Invoice - Home");
 	const { user } = useSelector((state) => state.auth);
@@ -29,6 +30,16 @@ const App = () => {
           <Route path="register" element={<RegisterPage />} />
           <Route path="auth/verify" element={<VerifiedPage />} />
           <Route path="login" element={<LoginPage />} />
+          <Route path="resend" element={<ResendEmailTokenPage />} />
+					<Route
+						path="reset_password_request"
+						element={<PasswordResetRequestPage />}
+					/>
+					<Route
+						path="auth/reset_password"
+						element={<PasswordResetPage />}
+					/>
+          
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
