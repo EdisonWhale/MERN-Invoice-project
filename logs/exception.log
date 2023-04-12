@@ -1337,3 +1337,258 @@
   ],
   timestamp: '2023-04-12 06:55:50.016 AM'
 }
+{
+  error: ReferenceError: path is not defined
+      at file:///app/backend/server.js:23:19
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: path is not defined\n' +
+    'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 20:13:45 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 142,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 105013248,
+      heapTotal: 70676480,
+      heapUsed: 41210176,
+      external: 29853325,
+      arrayBuffers: 18354770
+    }
+  },
+  os: { loadavg: [ 0.3, 0.58, 0.52 ], uptime: 11012.34 },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 08:13:45.805 PM'
+}
+{
+  error: ReferenceError: path is not defined
+      at file:///app/backend/server.js:23:19
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: path is not defined\n' +
+    'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 20:14:16 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 153,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 104878080,
+      heapTotal: 70938624,
+      heapUsed: 41113280,
+      external: 29853325,
+      arrayBuffers: 18371154
+    }
+  },
+  os: { loadavg: [ 1.37, 0.79, 0.59 ], uptime: 11042.83 },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 08:14:16.302 PM'
+}
+{
+  error: ReferenceError: path is not defined
+      at file:///app/backend/server.js:23:19
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: path is not defined\n' +
+    'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 20:15:49 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 164,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 104734720,
+      heapTotal: 70676480,
+      heapUsed: 41257072,
+      external: 20257385,
+      arrayBuffers: 18354779
+    }
+  },
+  os: { loadavg: [ 1.21, 1.04, 0.71 ], uptime: 11136.28 },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 08:15:49.745 PM'
+}
+{
+  error: ReferenceError: path is not defined
+      at file:///app/backend/server.js:23:19
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: path is not defined\n' +
+    'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 20:17:35 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 175,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 104837120,
+      heapTotal: 70938624,
+      heapUsed: 41073112,
+      external: 29853325,
+      arrayBuffers: 18354770
+    }
+  },
+  os: { loadavg: [ 0.26, 0.75, 0.64 ], uptime: 11242.44 },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 08:17:35.909 PM'
+}
+{
+  error: ReferenceError: path is not defined
+      at file:///app/backend/server.js:23:19
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: path is not defined\n' +
+    'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: path is not defined\n' +
+    '    at file:///app/backend/server.js:23:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 12 2023 20:17:37 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 186,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 104931328,
+      heapTotal: 70676480,
+      heapUsed: 41234296,
+      external: 29853325,
+      arrayBuffers: 18354770
+    }
+  },
+  os: { loadavg: [ 0.24, 0.74, 0.63 ], uptime: 11244.06 },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///app/backend/server.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-04-12 08:17:37.533 PM'
+}
