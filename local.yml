@@ -27,10 +27,10 @@ services:
             dockerfile: ./docker/local/Dockerfile
         restart: on-failure
         volumes:
-            - .\client:/app
+            - ./client:/app
             - /app/node_modules
         environment:
-            CHOKIDAR_USEPOLLING: "true"
+            - CHOKIDAR_USEPOLLING=true
         networks:
             - invoice
 

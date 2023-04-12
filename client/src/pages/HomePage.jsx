@@ -34,7 +34,7 @@ const HomePage = () => {
 								sx={{ textTransform: "uppercase", mt: "13rem" }}
 								className="homepage-header"
 							>
-								MERN aaa
+								Invoice Project
 							</StyledTypography>
 							<Typography
 								align="center"
