@@ -11,6 +11,7 @@ import { customTheme } from "./customTheme";
 import useTitle from "./hooks/useTitle"
 import VerifiedPage from "./features/auth/pages/VerifiedPage";
 import RegisterPage from "./features/auth/pages/RegisterPage";
+import LoginPage from "./features/auth/pages/LoginPage";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="register" element={<RegisterPage />} />
           <Route path="auth/verify" element={<VerifiedPage />} />
+          <Route path="login" element={<LoginPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
