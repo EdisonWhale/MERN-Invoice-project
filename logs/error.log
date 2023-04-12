@@ -18,3 +18,8 @@
   level: 'error',
   timestamp: '2023-04-11 07:40:31.054 PM'
 }
+{
+  message: 'incorrect email or password',
+  level: 'error',
+  timestamp: '2023-04-12 03:19:20.906 AM'
+}
