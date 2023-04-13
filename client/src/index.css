@@ -1,14 +1,3 @@
-@media screen and (max-width: 768px) {
-	/* 为手机和平板设备添加样式 */
-  }
-  
-@media screen and (max-width: 768px) {
-  .some-container {
-    padding: 10px;
-  }
-}
-
-
 body {
 	margin: 0;
 	padding: 0;

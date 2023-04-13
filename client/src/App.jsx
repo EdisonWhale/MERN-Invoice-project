@@ -19,6 +19,7 @@ import PasswordResetRequestPage from "./features/auth/pages/PasswordResetRequest
 import PasswordResetPage from "./features/auth/pages/PasswordResetPage";
 import { ROLES } from "./config/roles";
 import UsersList from "./features/users/pages/UsersListPage";
+import DashboardPage from "./features/dashboard/pages/DashboardPage";
 import AuthRequired from "./components/AuthRequired";
 import EditProfileForm from "./features/users/pages/EditProfileForm";
 import ProfilePage from "./features/users/pages/ProfilePage";
@@ -32,19 +33,19 @@ import DocumentsPage from "./features/documents/pages/DocumentsPage";
 import SingleDocumentPage from "./features/documents/pages/SingleDocumentPage";
 
 const App = () => {
-  useTitle("MERN Invoice - Home");
+	useTitle("MERN Invoice - Home");
 	const { user } = useSelector((state) => state.auth);
-  return (
+	return (
 		<ThemeProvider theme={customTheme}>
 			<CssBaseline />
 			{user && <Navbar />}
 			<Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="register" element={<RegisterPage />} />
-          <Route path="auth/verify" element={<VerifiedPage />} />
-          <Route path="login" element={<LoginPage />} />
-          <Route path="resend" element={<ResendEmailTokenPage />} />
+				<Route path="/" element={<Layout />}>
+					<Route index element={<HomePage />} />
+					<Route path="register" element={<RegisterPage />} />
+					<Route path="auth/verify" element={<VerifiedPage />} />
+					<Route path="login" element={<LoginPage />} />
+					<Route path="resend" element={<ResendEmailTokenPage />} />
 					<Route
 						path="reset_password_request"
 						element={<PasswordResetRequestPage />}
@@ -61,39 +62,36 @@ const App = () => {
 						<Route
 							path="edit-profile"
 							element={<EditProfileForm />}
-							/>
-							<Route path="customers" element={<CustomersPage />} />
-							<Route
-								path="create-customer"
-								element={<CustomerCreateForm />}
-							/>
-							<Route
-								path="single-customer/:custId"
-								element={<SingleCustomerPage />}
-							/>
-							<Route
-								path="edit-customer/:custId"
-								element={<CustomerEditForm />}
-								/>
+						/>
+						<Route path="customers" element={<CustomersPage />} />
+						<Route
+							path="create-customer"
+							element={<CustomerCreateForm />}
+						/>
+						<Route
+							path="single-customer/:custId"
+							element={<SingleCustomerPage />}
+						/>
+						<Route
+							path="edit-customer/:custId"
+							element={<CustomerEditForm />}
+						/>
 
-								<Route path="documents" element={<DocumentsPage />} />
-								<Route
-									path="create-doc"
-									element={<DocCreateEditForm />}
-									/>
-									<Route
-										path="edit-doc/:id"
-										element={<DocCreateEditForm />}
-									/>
-									<Route
-										path="document/:id"
-										element={<SingleDocumentPage />}
-									/>
-
+						<Route path="documents" element={<DocumentsPage />} />
+						<Route
+							path="create-doc"
+							element={<DocCreateEditForm />}
+						/>
+						<Route
+							path="edit-doc/:id"
+							element={<DocCreateEditForm />}
+						/>
+						<Route
+							path="document/:id"
+							element={<SingleDocumentPage />}
+						/>
+						<Route path="dashboard" element={<DashboardPage />} />
 					</Route>
-
-
-
 
 					{/* Private Routes - Admin Users only */}
 					<Route
@@ -101,14 +99,14 @@ const App = () => {
 					>
 						<Route path="users" element={<UsersList />} />
 					</Route>
-          
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-      <Footer />
-      <ToastContainer theme="dark" />
-    </ThemeProvider>
-  );
+
+					<Route path="*" element={<NotFound />} />
+				</Route>
+			</Routes>
+			<Footer />
+			<ToastContainer theme="dark" />
+		</ThemeProvider>
+	);
 };
 
 export default App;
