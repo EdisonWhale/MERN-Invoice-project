@@ -30,7 +30,7 @@ const Logo = () => {
 					to="/"
 					sx={{ textDecoration: "none", color: "white" }}
 				>
-					MERN INVOICE
+					INVOICEPRO
 				</Link>
 			</Typography>
 		</Stack>
