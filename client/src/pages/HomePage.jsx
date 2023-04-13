@@ -34,7 +34,7 @@ const HomePage = () => {
 								sx={{ textTransform: "uppercase", mt: "13rem" }}
 								className="homepage-header"
 							>
-								Invoice Project
+								WELCOME TO INVOICEPRO
 							</StyledTypography>
 							<Typography
 								align="center"

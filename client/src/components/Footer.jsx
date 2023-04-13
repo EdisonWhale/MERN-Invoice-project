@@ -1,13 +1,13 @@
 import { Box, CssBaseline, Link, Typography } from "@mui/material";
 
-import { FaMoneyBillWave } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Copyright() {
 	return (
 		<Typography variant="body2" align="center" sx={{ color: "#ffffff" }}>
 			{"Copyright ©"}
-			<Link color="inherit" href="htts://github.com/API-Imperfect">
-				MERN Invoice
+			<Link color="inherit" href="https://github.com/EdisonWhale/MERN-Invoice-project">
+				InvoicePro
 			</Link>{" "}
 			{new Date().getFullYear()} {"."}
 		</Typography>
@@ -40,8 +40,8 @@ const Footer = () => {
 					component="p"
 					sx={{ color: "#07f011" }}
 				>
-					<FaMoneyBillWave /> Because Money is as important as oxygen!{" "}
-					<FaMoneyBillWave />
+					<FaGithub /> Constructed by Edison. For additional details, please click on the following GitHub link{" "}
+					<FaGithub />
 				</Typography>
 				<Copyright />
 			</Box>
