@@ -19,11 +19,14 @@ import PasswordResetPage from "./features/auth/pages/PasswordResetPage";
 import PasswordResetRequestPage from "./features/auth/pages/PasswordResetRequestPage";
 import { ROLES } from "./config/role";
 import UsersList from "./features/users/pages/UsersListPage"
-import DashboardPage from "./pages/DashboardPage";
+
 import AuthRequired from "./components/AuthRequired";
 import EditProfileForm from "./features/users/pages/EditProfileForm";
 import ProfilePage from "./features/users/pages/ProfilePage";
-
+import CustomerCreateForm from "./features/customers/pages/CustomerCreateForm";
+import CustomerEditForm from "./features/customers/pages/CustomerEditForm";
+import CustomersPage from "./features/customers/pages/CustomersPage";
+import SingleCustomerPage from "./features/customers/pages/SingleCustomerPage";
 const App = () => {
   useTitle("MERN Invoice - Home");
 	const { user } = useSelector((state) => state.auth);
@@ -54,8 +57,21 @@ const App = () => {
 						<Route
 							path="edit-profile"
 							element={<EditProfileForm />}
-						/>
-							</Route>
+							/>
+							<Route path="customers" element={<CustomersPage />} />
+							<Route
+								path="create-customer"
+								element={<CustomerCreateForm />}
+							/>
+							<Route
+								path="single-customer/:custId"
+								element={<SingleCustomerPage />}
+							/>
+							<Route
+								path="edit-customer/:custId"
+								element={<CustomerEditForm />}
+							/>
+					</Route>
 					{/* Private Routes - Admin Users only */}
 					<Route
 						element={<AuthRequired allowedRoles={[ROLES.Admin]} />}
