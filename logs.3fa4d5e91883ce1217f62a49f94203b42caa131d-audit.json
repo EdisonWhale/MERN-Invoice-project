@@ -16,14 +16,9 @@
             "hash": "c7f7ce7db5fa3f2fc9cd998d6a19088b1db94a6b3621ba38ece46b05a372666a"
         },
         {
-            "date": 1681333665204,
-            "name": "logs/combined-2023-04-12.log",
-            "hash": "218e8797ca76dd65f17cf16f23e37a432d171ed48422a4969fdde0da7441d106"
-        },
-        {
-            "date": 1681344503834,
+            "date": 1681347690095,
             "name": "logs/combined-2023-04-13.log",
-            "hash": "b6d519f5754f951d4a06485c3cecf0a7bcf38b5e41748835a2ab7b06037484c4"
+            "hash": "1f18468e37f520e5c00c6848ae7baf0f10d8147e1f5b190eb0601d845df95569"
         }
     ],
     "hashType": "sha256"
