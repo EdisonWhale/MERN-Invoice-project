@@ -6,19 +6,19 @@ import "react-toastify/dist/ReactToastify.min.css";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import NotFound from "./components/NotFound";
-import HomePage from "./pages/HomePage";
 import { customTheme } from "./customTheme";
-import useTitle from "./hooks/useTitle"
-import Navbar from "./components/Navbar";
+import useTitle from "./hooks/useTitle";
 import { useSelector } from "react-redux";
-import VerifiedPage from "./features/auth/pages/VerifiedPage";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
 import RegisterPage from "./features/auth/pages/RegisterPage";
+import VerifiedPage from "./features/auth/pages/VerifiedPage";
 import LoginPage from "./features/auth/pages/LoginPage";
 import ResendEmailTokenPage from "./features/auth/pages/ResendEmailTokenPage";
-import PasswordResetPage from "./features/auth/pages/PasswordResetPage";
 import PasswordResetRequestPage from "./features/auth/pages/PasswordResetRequestPage";
-import { ROLES } from "./config/role";
-import UsersList from "./features/users/pages/UsersListPage"
+import PasswordResetPage from "./features/auth/pages/PasswordResetPage";
+import { ROLES } from "./config/roles";
+import UsersList from "./features/users/pages/UsersListPage";
 import AuthRequired from "./components/AuthRequired";
 import EditProfileForm from "./features/users/pages/EditProfileForm";
 import ProfilePage from "./features/users/pages/ProfilePage";
@@ -29,6 +29,7 @@ import SingleCustomerPage from "./features/customers/pages/SingleCustomerPage";
 import DocCreateEditForm from "./features/documents/pages/DocCreateEditForm";
 import DocumentsPage from "./features/documents/pages/DocumentsPage";
 
+import SingleDocumentPage from "./features/documents/pages/SingleDocumentPage";
 
 const App = () => {
   useTitle("MERN Invoice - Home");
@@ -79,8 +80,15 @@ const App = () => {
 								<Route
 									path="create-doc"
 									element={<DocCreateEditForm />}
-								/>
-
+									/>
+									<Route
+										path="edit-doc/:id"
+										element={<DocCreateEditForm />}
+									/>
+									<Route
+										path="document/:id"
+										element={<SingleDocumentPage />}
+									/>
 
 					</Route>
 
