@@ -174,6 +174,10 @@ const DocCreateEditForm = () => {
 
 	const createUpdateDocHandler = async (e) => {
 		e.preventDefault();
+		if (!customer) {
+			toast.error("Please select a customer before creating or updating a document.");
+			return;
+		}
 		if (doc) {
 			try {
 				await updateDoc({
