@@ -1488,3 +1488,34 @@
   ],
   timestamp: '2023-04-12 08:17:37.533 PM'
 }
+{
+  error: [Error: Unauthorized] {
+    status: 401,
+    details: 'Forbidden',
+    type: 'MailgunAPIError'
+  },
+  level: 'error',
+  message: 'unhandledRejection: Unauthorized\n  No stack trace',
+  stack: '',
+  exception: true,
+  date: 'Fri Apr 14 2023 19:45:25 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 30,
+    uid: 100,
+    gid: 101,
+    cwd: '/app',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/local/bin/node', '/app/backend/server.js' ],
+    memoryUsage: {
+      rss: 121081856,
+      heapTotal: 47345664,
+      heapUsed: 43070648,
+      external: 21868211,
+      arrayBuffers: 18353774
+    }
+  },
+  os: { loadavg: [ 0.56, 0.73, 0.76 ], uptime: 121336.75 },
+  trace: [],
+  timestamp: '2023-04-14 07:45:25.621 PM'
+}
