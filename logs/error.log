@@ -53,3 +53,18 @@
   level: 'error',
   timestamp: '2023-04-12 09:16:29.224 PM'
 }
+{
+  message: 'email not sent: Error: Unauthorized',
+  level: 'error',
+  timestamp: '2023-11-11 05:25:33.434 AM'
+}
+{
+  message: 'email not sent: Error: Unauthorized',
+  level: 'error',
+  timestamp: '2023-11-11 05:43:42.511 AM'
+}
+{
+  message: 'email not sent: Error: Unauthorized',
+  level: 'error',
+  timestamp: '2023-11-11 05:59:32.148 AM'
+}
