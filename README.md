@@ -7,6 +7,7 @@ The MERN Invoice Management System is a comprehensive application designed to ma
 ## Table of Contents
 - [Features](#features)
 - [File Structure](#file-structure)
+- [Demo View](#demo-view)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
@@ -22,7 +23,13 @@ The MERN Invoice Management System is a comprehensive application designed to ma
 - **User Interface:** User-friendly interface built with React and Material-UI.
 - **Responsive Design:** Works on both desktop and mobile devices.
 
+# Demo View
 
+![MergedImages (3)](https://github.com/EdisonWhale/MERN-Invoice-project/assets/103423072/b5172ab4-5573-4b96-a369-2a9f05fb7dd6)
+
+![MergedImages](https://github.com/EdisonWhale/MERN-Invoice-project/assets/103423072/64651750-e0d8-41e8-8ca1-7e82674ef1c5)
+![MergedImages (2)](https://github.com/EdisonWhale/MERN-Invoice-project/assets/103423072/f57e06fe-8ca4-4dd5-9f87-2e6754127872)
+![MergedImages (1)](https://github.com/EdisonWhale/MERN-Invoice-project/assets/103423072/ce365075-f8b7-4c5a-8033-cc63f0adc425)
 
 
 
@@ -157,6 +164,9 @@ To install and run this project locally, follow these steps:
 ## Usage
 
 Once the application is running, you can access it at `http://localhost:3000`.
+
+* Also, you need to set up with the .env file
+
 
 ### Key Pages and Components
 
